@@ -23,16 +23,22 @@
 .content {
   overflow: hidden;
   background-color: rgba(76, 187, 23, 0.95); }
+  .content input {
+    background-color: rgba(255, 255, 255, 0.8); }
   .content .column {
     float: left;
     padding: 5px;
     width: 50%; }
     .content .column img {
-      width: 100%; }
+      width: 100%;
+      border-radius: 5%;
+      border-style: inset; }
   .content .officer {
     float: left;
     padding: 5px;
     text-align: center; }
+    .content .officer h4 {
+      font-style: italic; }
 
 .transparent {
   text-align: center; }
